@@ -1,11 +1,18 @@
 import React, {Component} from 'react';
 
-class HelloWorld extends Component {
+class Counter extends Component {
+  constructor() {
+    super();
+    this.state = {
+      count: 0,
+    };
+  }
+
   render () {
     return (
-      <div>sup world!!</div>
+      <div></div>
     )
   }
 }
 
-export default HelloWorld;
+export default Counter;
